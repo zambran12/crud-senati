@@ -15,7 +15,10 @@ public class CrudSenati {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("hollo world");
+        System.out.println("hello world");
+        Coneccion cn = new Coneccion();
+        cn.conectar();
+        
     }
     
 }
