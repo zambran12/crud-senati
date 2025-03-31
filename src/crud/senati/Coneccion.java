@@ -17,7 +17,7 @@ public class Coneccion {
        try{
          cn = DriverManager.getConnection(url, user, password);
          if (cn != null){
-             System.out.println("No conectao :(");
+             System.out.println("Conectado");
          }
        }catch(SQLException e){
            System.out.println(e);
